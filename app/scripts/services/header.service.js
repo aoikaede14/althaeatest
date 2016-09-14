@@ -12,6 +12,11 @@ angular.module('myApp').factory('HeaderService', [
         active_state: 'ignite_ui',
         ui_sref: 'ignite_ui.grid',
         label: 'ignite_ui'
+      },
+      {
+        active_state: 'trycode',
+        ui_sref: 'trycode.content',
+        label: 'constration'
       }
     ];
 

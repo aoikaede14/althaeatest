@@ -16,7 +16,7 @@ angular.module('myApp').factory('HeaderService', [
       {
         active_state: 'trycode',
         ui_sref: 'trycode.content',
-        label: 'constration'
+        label: 'trycode'
       }
     ];
 

@@ -1,0 +1,13 @@
+/script/config
+　stateとどのページを表示するのかを設定する
+/script/controllers/
+　configで設定され、値を編集したり読み込んだりしている。
+/script/services/
+ データを読み込む。(外部であったり、配列情報をここで読む関数を作ったり?)
+ /styles/
+　scssなどを置く場所。
+/views/
+　htmlを置く場所
+
+scss 変数などを使えて、cssに変換して使うもの。cssだと変数など使えないため管理しにくいからいったん別言語作ってコンパイルしよう。
+

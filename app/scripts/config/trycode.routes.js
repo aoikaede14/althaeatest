@@ -7,7 +7,7 @@ angular.module('myApp').config(['$stateProvider',
         templateUrl: 'views/common/main.html'
       })
       .state('trycode.content', {
-        url:'trycode/content',
+        url:'/trycode/content',
         views: {
           "header@trycode": {
             templateUrl: 'views/common/header.html',
